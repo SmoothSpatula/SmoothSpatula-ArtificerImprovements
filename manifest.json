@@ -1,0 +1,9 @@
+{
+	"name": "ArtificerImprovements",
+	"version_number": "1.0.0",
+	"website_url": "https://github.com/SmoothSpatula/SmoothSpatula-ArtificerImprovements",
+	"description": "Buffed Artificer. You can hover by holding jump.",
+	"dependencies": [
+		"ReturnOfModding-ReturnOfModding-1.0.32"
+	]
+}
