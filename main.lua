@@ -1,4 +1,4 @@
--- ArtificerImprovements v1.0.0
+-- ArtificerImprovements v1.0.1
 -- SmoothSpatula
 
 log.info("Successfully loaded ".._ENV["!guid"]..".")
@@ -8,11 +8,12 @@ function setup_arti()
     local artiZ = skills[120]
 
     --artiZ[8] = 1 -- damage
-    artiZ[13] = false -- require_key_press
-    artiZ[14] = true -- allow_buffered_input
-    artiZ[20] = false --  hold facing direction
-    artiZ[9] = 8.0 -- number of chakrams
-    artiZ[23] = true -- ignore_aim_direction
+
+    gm.array_set(artiZ, 12,  false) -- require_key_press
+    gm.array_set(artiZ, 13, true) -- allow_buffered_input
+    gm.array_set(artiZ, 19, false) --  hold facing direction
+    gm.array_set(artiZ, 8, 8.0) -- number of chakrams
+    gm.array_set(artiZ, 22, true) -- ignore_aim_direction
 
     local speed_multi = 2.0
     gm.sprite_set_speed(gm.constants.sArtiShoot1_1A, speed_multi, 1)
