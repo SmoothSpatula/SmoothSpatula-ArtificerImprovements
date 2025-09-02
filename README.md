@@ -1,6 +1,6 @@
 # DEPRECATED
 
-Check https://github.com/Tizitendo/Onyx-ArtificerPlus
+Check https://github.com/Tizitendo/Onyx-ArtificerPlus-
 
 
 # SmoothSpatula-ArtificerImprovements
