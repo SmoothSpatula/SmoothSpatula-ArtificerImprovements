@@ -1,3 +1,8 @@
+# DEPRECATED
+
+Check https://github.com/Tizitendo/Onyx-ArtificerPlus
+
+
 # SmoothSpatula-ArtificerImprovements
 
 - Doubled animation speed of Chakrams and double the total amount of Chakrams
